@@ -7,10 +7,10 @@ export default function Home() {
           "Even Dead, I'm The Hero"
         </div>
       </div>
-      <div>
+      <div className='lg:mx-40'>
         <div className='mx-5 pb-5'>
           <div className='font-cinzel text-md'>Hall of fame</div>
-          <hr className='bg-blue-dark' />
+          <hr className='bg-blue-dark border-blue-dark' />
         </div>
       </div>
     </div>
