@@ -35,7 +35,7 @@ export default function Home() {
         <meta name='twitter:card' content='summary_large_image' />
       </Head>
       <div className='flex flex-col justify-center items-center p-10 '>
-        <div className='font-cinzel text-3xl text-gold z-10'>EDITH</div>
+        <div className='font-cinzel text-5xl text-gold z-10'>EDITH</div>
         <div className='font-cinzel text-xl text-blue-dark'>
           "Even Dead, I'm The Hero"
         </div>
