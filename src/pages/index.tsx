@@ -210,8 +210,7 @@ export default function Home() {
       </div>
 
       <footer className='flex flex-col justify-center mt-36 h-48 bg-blue-dark items-center text-white '>
-        <div className='font-bold text-xl mb-5'>Apes. Together. Strong.</div>
-        <div className='my-2'>
+        <div>
           Made with ❤️
           <a
             href='https://mail.google.com/mail/?view=cm&fs=1&to=su.diddo@gmail.com'
@@ -222,6 +221,7 @@ export default function Home() {
             {`by Asynchronous (Diddo)`}
           </a>
         </div>
+        <div className='my-2'>Apes. Together. Strong.</div>
         <div>2021</div>
       </footer>
     </div>
