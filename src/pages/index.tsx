@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 import First from 'assets/screenshots/1.png';
 import Second from 'assets/screenshots/2.png';
 import Third from 'assets/screenshots/3.png';
@@ -9,6 +11,14 @@ import Seventh from 'assets/screenshots/7.png';
 export default function Home() {
   return (
     <div className='min-h-screen bg-white'>
+      <Head>
+        <title>Edith Web Service</title>
+        <meta property='og:title' content={'Edith'} />
+        <meta property='og:url' content={'https://edith-app.vercel.app/'} />
+        <meta name='twitter:card' content='Edith' />
+        <meta name='twitter:title' content={'Edith Web Service'} />
+        <meta name='twitter:description' content={'Edith Wall Of Fame'} />
+      </Head>
       <div className='flex flex-col justify-center items-center p-10 '>
         <div className='font-cinzel text-3xl text-gold z-10'>EDITH</div>
         <div className='font-cinzel text-xl text-blue-dark'>
@@ -184,8 +194,9 @@ export default function Home() {
         </div>
       </div>
 
-      <footer className='flex flex-col justify-center mt-36 h-36 bg-blue-dark items-center text-white '>
-        <div>
+      <footer className='flex flex-col justify-center mt-36 h-48 bg-blue-dark items-center text-white '>
+        <div className='font-bold text-xl mb-5'>Apes. Together. Strong.</div>
+        <div className='my-2'>
           Made with ❤️
           <a
             href='https://mail.google.com/mail/?view=cm&fs=1&to=su.diddo@gmail.com'
@@ -196,7 +207,7 @@ export default function Home() {
             {`by Asynchronous (Diddo)`}
           </a>
         </div>
-        <div className='mt-2'>2021</div>
+        <div>2021</div>
       </footer>
     </div>
   );
