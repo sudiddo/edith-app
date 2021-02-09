@@ -216,7 +216,7 @@ export default function Home() {
             href='https://mail.google.com/mail/?view=cm&fs=1&to=su.diddo@gmail.com'
             target='_blank'
             rel='noreferrer'
-            className='font-semibold ml-2'
+            className='font-semibold ml-px'
           >
             {`by Asynchronous (Diddo)`}
           </a>
