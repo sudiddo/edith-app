@@ -13,11 +13,26 @@ export default function Home() {
     <div className='min-h-screen bg-white'>
       <Head>
         <title>Edith Web Service</title>
-        <meta property='og:title' content={'Edith'} />
-        <meta property='og:url' content={'https://edith-app.vercel.app/'} />
-        <meta name='twitter:card' content='Edith' />
-        <meta name='twitter:title' content={'Edith Web Service'} />
-        <meta name='twitter:description' content={'Edith Wall Of Fame'} />
+        <meta property='og:title' content='Edith Web Service' />
+        <meta
+          property='og:description'
+          content='Wall of fame for Edith Alliance'
+        />
+        <meta
+          property='og:image'
+          content='http://euro-travel-example.com/thumbnail.jpg'
+        />
+        <meta property='og:url' content='https://edith-app.vercel.app/' />
+        <meta name='twitter:title' content='Edith Web Service ' />
+        <meta
+          name='twitter:description'
+          content=' Wall of fame for Edith Alliance.'
+        />
+        <meta
+          name='twitter:image'
+          content=' http://euro-travel-example.com/thumbnail.jpg'
+        />
+        <meta name='twitter:card' content='summary_large_image' />
       </Head>
       <div className='flex flex-col justify-center items-center p-10 '>
         <div className='font-cinzel text-3xl text-gold z-10'>EDITH</div>
