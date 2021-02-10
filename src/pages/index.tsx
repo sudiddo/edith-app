@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className='min-h-screen bg-white'>
       <Head>
-        <title>Edith Web Service</title>
+        <title>Edith</title>
         <meta property='og:title' content='Edith Web Service' />
         <meta
           property='og:description'
@@ -61,7 +61,7 @@ export default function Home() {
                   </div>
                   <div className='col-span-3 inline-grid grid-cols-2 gap-1'>
                     <div className='font-sans text-blue-dark font-semibold text-md'>
-                      500 Druidrider
+                      528 Theutates Thunder
                     </div>
                     <div className='font-sans text-blue-dark font-semibold text-md'>
                       1 Hero
