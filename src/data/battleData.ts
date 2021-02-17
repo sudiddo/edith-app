@@ -68,7 +68,7 @@ const battleData = async () => {
         {
           id: 6,
           image: Sixth,
-          time: '20:05:011',
+          time: '20:05:01',
           impact: [
             '100 Imperian',
             '100 Equites Imperatoris',

@@ -34,8 +34,12 @@ const BattleCard = ({
         <div className='flex flex-row justify-between h-full'>
           <div className='md:text-4xl text-3xl font-extrabold self-center'>{`${ally}`}</div>
           <div className='flex flex-col font-bold justify-center text-right'>
-            {victims.map((victim) => {
-              return <div className='md:text-lg text-md'>{victim}</div>;
+            {victims.map((victim, index) => {
+              return (
+                <div key={index} className='md:text-lg text-md'>
+                  {victim}
+                </div>
+              );
             })}
           </div>
         </div>

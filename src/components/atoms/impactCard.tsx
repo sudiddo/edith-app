@@ -12,7 +12,7 @@ const ImpactCard = ({ image, impacts, time }: ImpactCardProps) => {
           <img src={image} className='rounded-sm object-contain self-center' />
         </div>
         <div className='col-span-1'>
-          <div className='grid gap-1 mt-2 ml-3'>
+          <div className='grid gap-1 mt-2'>
             <div className='col-auto font-sans text-white font-bold md:text-lg md:text-right text-xs'>
               {`${time}`}
             </div>
