@@ -28,7 +28,7 @@ export default function Home({
           <meta property='og:title' content='Edith Web Service' />
           <meta
             property='og:description'
-            content='Wall of fame for Edith Alliance'
+            content='Hall of Fame for Edith Alliance'
           />
           <meta
             property='og:image'
