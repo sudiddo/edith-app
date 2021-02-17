@@ -93,7 +93,7 @@ function BattleImpact({
             rel='noreferrer'
             className='font-semibold ml-px'
           >
-            {`by Asynchronous (Diddo)`}
+            {`by Asynchronous`}
           </a>
         </div>
         <div className='my-2'>Apes. Together. Strong.</div>

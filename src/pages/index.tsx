@@ -55,13 +55,13 @@ export default function Home({
       <main className='lg:mx-40 mx-5 mt-10 mb-auto'>
         <div className='pb-5'>
           <div className='font-cinzel text-2xl text-gold font-bold'>
-            Hall of fame
+            Hall of Fame
           </div>
           <hr className='bg-blue-dark border-blue-dark' />
         </div>
         <div className='grid lg:grid-cols-3 grid-flow-row gap-5 items-start'>
           {battle.map((data) => {
-            return <BattleCard battle={data} />;
+            return <BattleCard key={data.id} battle={data} />;
           })}
         </div>
       </main>
@@ -74,7 +74,7 @@ export default function Home({
             rel='noreferrer'
             className='font-semibold ml-px'
           >
-            {`by Asynchronous (Diddo)`}
+            {`by Asynchronous`}
           </a>
         </div>
         <div className='my-2'>Apes. Together. Strong.</div>
