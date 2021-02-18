@@ -11,7 +11,7 @@ const ImpactCard = ({ image, impacts, time }: ImpactCardProps) => {
         <div className='flex col-span-2 min-h-full items-center'>
           <img src={image} className='rounded-sm object-contain self-center' />
         </div>
-        <div className='col-span-1'>
+        <div className='col-span-1 md:ml-4'>
           <div className='grid gap-1 mt-2'>
             <div className='col-auto font-sans text-white font-bold md:text-lg md:text-right text-xs'>
               {`${time}`}
