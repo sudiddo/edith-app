@@ -2,11 +2,11 @@
 
 ## Progress
 
-[ x ] Hall of Fame Page
-[ x ] Combat Details Page
-[ ] Add Firebase and graphql
-[ ] Add Admin Site for data entry
-[ ] [Feature] HoF combat filter
+- [x] Hall of Fame Page
+- [x] Combat Details Page
+- [ ] Add Firebase and graphql
+- [ ] Add Admin Site for data entry
+- [ ] [Feature] HoF combat filter
 
 ## Features
 
