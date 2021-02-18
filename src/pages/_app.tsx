@@ -1,17 +1,17 @@
 import { AppProps } from 'next/app';
 import { useEffect } from 'react';
 import 'styles/globals.css';
-import { analytics } from '../../utils/firebase';
 import { useRouter } from 'next/router';
+import firebase from 'utils/firebase';
 
 function MyApp({ Component, pageProps }: AppProps) {
   const routers = useRouter();
 
   useEffect(() => {
-    if (process.env.NODE_ENV === 'production') {
+    if (process.env.NODE_ENV === 'development') {
       const logEvent = (url: string) => {
-        analytics().setCurrentScreen(url);
-        analytics().logEvent('page_view', {
+        firebase.analytics().setCurrentScreen(url);
+        firebase.analytics().logEvent('page_view', {
           screen_name: url,
         });
       };
