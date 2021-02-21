@@ -1,3 +1,5 @@
+import ModalImage from 'react-modal-image';
+
 export interface ImpactCardProps {
   image: any;
   time: string;
@@ -6,10 +8,12 @@ export interface ImpactCardProps {
 
 const ImpactCard = ({ image, impacts, time }: ImpactCardProps) => {
   return (
-    <div className='p-4 z-10 bg-blue-dark border border-blue-dark rounded-md shadow-lg md:min-h-full md:flex'>
+    <div className='p-4 bg-blue-dark border border-blue-dark rounded-md shadow-lg md:min-h-full md:flex'>
       <div className='md:grid md:grid-cols-3'>
         <div className='flex col-span-2 md:min-h-full items-center'>
-          <img src={image} className='rounded-sm object-contain self-center' />
+          <div className='rounded-sm object-contain self-center'>
+            <ModalImage small={image} large={image} />
+          </div>
         </div>
         <div className='col-span-1 md:ml-4'>
           <div className='grid gap-1 mt-2'>
