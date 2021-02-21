@@ -6,9 +6,9 @@ export interface ImpactCardProps {
 
 const ImpactCard = ({ image, impacts, time }: ImpactCardProps) => {
   return (
-    <div className='p-4 z-10 bg-blue-dark border border-blue-dark rounded-md shadow-lg min-h-full flex'>
+    <div className='p-4 z-10 bg-blue-dark border border-blue-dark rounded-md shadow-lg md:min-h-full md:flex'>
       <div className='md:grid md:grid-cols-3'>
-        <div className='flex col-span-2 min-h-full items-center'>
+        <div className='flex col-span-2 md:min-h-full items-center'>
           <img src={image} className='rounded-sm object-contain self-center' />
         </div>
         <div className='col-span-1 md:ml-4'>

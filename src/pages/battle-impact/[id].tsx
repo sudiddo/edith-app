@@ -67,9 +67,11 @@ function BattleImpact({
 
       <main className='md:mx-40 mx-5 mt-10 mb-auto'>
         <div className='pb-5'>
-          <div className='font-cinzel text-gold font-bold flex flex-row justify-between items-center'>
-            <div className='text-2xl'>{`${battleType} Impacts`}</div>
-            <div className='text-xl text-blue-dark'>{date}</div>
+          <div className='font-cinzel text-gold font-bold flex md:flex-row flex-col md:justify-between md:items-center'>
+            <div className='md:text-2xl text-md'>{`${battleType} Impacts`}</div>
+            <div className='md:text-xl text-md md:text-right text-blue-dark'>
+              {date}
+            </div>
           </div>
           <hr className='bg-blue-dark border-blue-dark' />
         </div>
