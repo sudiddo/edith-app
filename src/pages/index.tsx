@@ -1,4 +1,4 @@
-import BattleCard from 'components/atoms/battleCard';
+import BattleCard from 'components/atoms/cards/battleCard';
 import battleData from 'data/battleData';
 import {
   GetStaticProps,

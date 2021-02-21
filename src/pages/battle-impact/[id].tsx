@@ -1,23 +1,25 @@
-import ImpactCard from 'components/atoms/impactCard';
 import battleData from 'data/battleData';
 import LeftArrow from 'assets/icons/left-arrow.svg';
 import { GetServerSideProps, InferGetStaticPropsType } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
+import ImpactCard from 'components/atoms/cards/impactCard';
 
 // This gets called on every request
 export const getServerSideProps: GetServerSideProps = async (context) => {
   // Fetch data from external API
   const res = await battleData();
+  const date = res[Number(context.params.id) - 1].date;
   const battle = res[Number(context.params.id) - 1].battle;
   const battleType = res[Number(context.params.id) - 1].type;
   // Pass data to the page via props
-  return { props: { battle, battleType } };
+  return { props: { battle, battleType, date } };
 };
 
 function BattleImpact({
   battle,
   battleType,
+  date,
 }: InferGetStaticPropsType<typeof getServerSideProps>) {
   return (
     <div className='flex flex-col min-h-screen bg-white'>
@@ -67,6 +69,7 @@ function BattleImpact({
         <div className='pb-5'>
           <div className='font-cinzel text-gold font-bold flex flex-row justify-between items-center'>
             <div className='text-2xl'>{`${battleType} Impacts`}</div>
+            <div className='text-xl text-blue-dark'>{date}</div>
           </div>
           <hr className='bg-blue-dark border-blue-dark' />
         </div>
