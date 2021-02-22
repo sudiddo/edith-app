@@ -47,25 +47,19 @@ function BattleImpact({
           />
           <meta name='twitter:card' content='summary_large_image' />
         </Head>
+      </header>
+
+      <main className='md:mx-40 mx-5 mt-16 mb-auto'>
         <div className='flex flex-col'>
           <Link href='/'>
-            <div className='lg:mx-40 mx-5 my-6  flex flex-row items-center cursor-pointer'>
+            <div className='my-6 flex flex-row items-center cursor-pointer'>
               <img src={LeftArrow} className='w-5 h-5 mb-1' />
               <div className='font-bold font-cinzel text-blue-dark text-lg'>
                 Back
               </div>
             </div>
           </Link>
-          <div className='flex flex-col justify-center items-center p-10 '>
-            <div className='font-cinzel text-5xl text-gold z-10'>EDITH</div>
-            <div className='font-cinzel text-xl text-blue-dark'>
-              "Even Dead, I'm The Hero"
-            </div>
-          </div>
         </div>
-      </header>
-
-      <main className='md:mx-40 mx-5 mt-10 mb-auto'>
         <div className='pb-5'>
           <div className='font-cinzel text-gold font-bold flex md:flex-row flex-col md:justify-between md:items-center'>
             <div className='md:text-2xl text-md'>{`${battleType} Impacts`}</div>

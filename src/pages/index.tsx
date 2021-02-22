@@ -46,10 +46,6 @@ export default function Home({
           />
           <meta name='twitter:card' content='summary_large_image' />
         </Head>
-        <div className='font-cinzel text-5xl text-gold z-10'>EDITH</div>
-        <div className='font-cinzel text-xl text-blue-dark'>
-          "Even Dead, I'm The Hero"
-        </div>
       </header>
 
       <main className='lg:mx-40 mx-5 mt-10 mb-auto'>
@@ -65,7 +61,7 @@ export default function Home({
           })}
         </div>
       </main>
-      <footer className='flex flex-col justify-center mt-36 h-48 bg-blue-dark items-center text-white '>
+      <footer className='flex flex-col justify-center mt-36 h-36 bg-blue-dark items-center text-white '>
         <div>
           Made with ❤️
           <a
