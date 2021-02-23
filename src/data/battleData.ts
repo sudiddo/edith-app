@@ -140,7 +140,7 @@ const battleData = async () => {
     },
     {
       id: 4,
-      type: 'Chief',
+      type: 'Attack',
       date: 'Wednesday, 24 February 2021',
       ally: '桃狼-Tang',
       victims: ['黑日无悔'],
