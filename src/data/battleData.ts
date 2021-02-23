@@ -8,6 +8,8 @@ import Seventh from 'assets/screenshots/7.png';
 import Eighth from 'assets/screenshots/8.png';
 import Ninth from 'assets/screenshots/9.png';
 import Tenth from 'assets/screenshots/10.png';
+import Eleven from 'assets/screenshots/11.png';
+import Twelve from 'assets/screenshots/12.png';
 
 const battleData = async () => {
   const data = [
@@ -133,6 +135,27 @@ const battleData = async () => {
             '17 Equites Caesaris',
             '9 Fire Catapult',
           ],
+        },
+      ],
+    },
+    {
+      id: 4,
+      type: 'Chief',
+      date: 'Wednesday, 24 February 2021',
+      ally: '桃狼-Tang',
+      victims: ['黑日无悔'],
+      battle: [
+        {
+          id: 1,
+          image: Eleven,
+          time: '00:11:00',
+          impact: ['184 Spearman', '1 Axeman', '115 Scout'],
+        },
+        {
+          id: 1,
+          image: Twelve,
+          time: '00:11:02',
+          impact: ['No Troop Left'],
         },
       ],
     },
